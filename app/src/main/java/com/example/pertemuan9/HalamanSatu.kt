@@ -20,7 +20,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.pertemuan9.HalamanHome
 import com.example.pertemuan9.R
 import com.example.pertemuan9.ui.theme.Pertemuan9Theme
 
@@ -53,6 +52,10 @@ fun HalamanSatu(
             value = konsentrasi,
             onValueChange = {konsentrasi =it},
             label = { Text(text ="Knsentrasi") })
+        OutlinedTextField(
+            value = judulSkripsi,
+            onValueChange = {judulSkripsi =it},
+            label = { Text(text ="JudulSkripsi") })
         Spacer(modifier = Modifier.padding(16.dp))
         Button(onClick = {onSubmitButtonClicked(listData)}) {
             Text(text = stringResource(id = R.string.submit_button))
