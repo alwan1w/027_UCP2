@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">pertemuan9</string>
+    <string name="next">Lanjut</string>
+    <string name="back_button">Kembali</string>
+    <string name="submit_button">Submit</string>
+    <string name="dosen1">Haris</string>
+    <string name="dosen2">Dwi</string>
+    <string name="dosen3">Aprillia</string>
+
+</resources>
